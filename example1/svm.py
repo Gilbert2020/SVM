@@ -19,3 +19,4 @@ print(auc, f1)
 
 plot_decision_regions(test_x, test_y.astype("int"), clf=svm)
 plt.show()
+plt.savefig('test.png')
